@@ -1,0 +1,25 @@
+# Node.js and React specific
+node_modules/
+build/
+.env
+.DS_Store
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.eslintcache
+.vscode/
+
+# Amplify specific (CRITICAL FOR SENSITIVE INFO)
+amplify/.config/
+amplify/backend/amplify-meta.json
+amplify/backend/awscloudformation/
+amplify/backend/awscloudformation/build/
+amplify/backend/amplify-appsync-files/
+amplify/backend/build/
+amplify/backend/output/
+amplify/#current-cloud-backend/
+amplify/.temp/
+aws-exports.js # <--- IMPORTANT: Read the note below
+
+# Visual Studio Code specific
+.vscode/
